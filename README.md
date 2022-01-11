@@ -54,6 +54,9 @@ After the installation, please test scenarios in Insomnia - refer to demo video 
 
 - [Link to the video demonstration of how to test the application](https://drive.google.com/file/d/1dOIsQX6iKE4rslfpm6SX-Iz_PuImZtch/view?usp=sharing)
 
+- Screenshot of Testings in Insomnia:
+![Screenshot of Testings in Insomnia](./assets/images/demonstration-0.png)
+
 ## License
 
 This project is using the MIT License.
