@@ -9,7 +9,8 @@ router.get('/', (req, res) => {
   Tag.findAll (
     {
       include: {
-        model: Product
+        model: Product,
+        through: ProductTag,
       }
     }
   )
@@ -28,7 +29,8 @@ router.get('/:id', (req, res) => {
       id: req.params.id
     },
     include: {
-      model: Product
+      model: Product,
+      through: ProductTag,
     }
   })
   .then(dbTagData => {
